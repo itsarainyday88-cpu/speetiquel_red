@@ -1,0 +1,17 @@
+
+> speetiquel_red_v2@0.0.0 build
+> vite build
+
+[36mvite v7.3.0 [32mbuilding client environment for production...[36m[39m
+transforming...
+[32m✓[39m 1711 modules transformed.
+rendering chunks...
+computing gzip size...
+[2mdist/[22m[32mindex.html                               [39m[1m[2m  0.46 kB[22m[1m[22m[2m │ gzip:  0.30 kB[22m
+[2mdist/[22m[32massets/hero_vials-lxCluwda.png           [39m[1m[2m557.23 kB[22m[1m[22m
+[2mdist/[22m[32massets/hero_bg-O-9HUx4d.png              [39m[1m[2m633.45 kB[22m[1m[22m
+[2mdist/[22m[32massets/mechanism_mixing-CIkiwd8M.png     [39m[1m[2m658.22 kB[22m[1m[22m
+[2mdist/[22m[32massets/core_tech_schematic-CdIcQBRx.png  [39m[1m[2m760.96 kB[22m[1m[22m
+[2mdist/[22m[35massets/index-CX1tJRem.css                [39m[1m[2m  1.91 kB[22m[1m[22m[2m │ gzip:  0.84 kB[22m
+[2mdist/[22m[36massets/index-CcqntuMd.js                 [39m[1m[2m214.72 kB[22m[1m[22m[2m │ gzip: 68.48 kB[22m
+[32m✓ built in 3.08s[39m
