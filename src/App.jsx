@@ -6,6 +6,7 @@ import Mechanism from './components/sections/Mechanism';
 import Evolution from './components/sections/Evolution'; // Evidence
 import RecommendedFor from './components/sections/RecommendedFor'; // Targeting
 import Navigation from './components/Navigation';
+import Footer from './components/sections/Footer';
 import { Globe } from 'lucide-react';
 
 function App() {
@@ -82,10 +83,8 @@ function App() {
         </div>
       </main>
 
-      {/* Simple Footer */}
-      <footer className="py-10 text-center text-xs text-gray-600 border-t border-gray-900">
-        <p>&copy; 2026 SPEETIQUEL RED. All Rights Reserved.</p>
-      </footer>
+      {/* Footer */}
+      <Footer lang={lang} />
     </div>
   );
 }
