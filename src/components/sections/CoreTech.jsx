@@ -66,7 +66,7 @@ const CoreTech = ({ lang }) => {
 
                     {/* Center Visual (3D Schematic) */}
                     <div className="w-full lg:w-1/2 relative bg-black rounded-full aspect-square flex items-center justify-center overflow-hidden border border-white/10 shadow-[0_0_50px_rgba(161,29,51,0.2)] fade-up delay-100">
-                        <img src={schematic} alt="Skin Schematic" className="w-[110%] h-[110%] object-cover opacity-90 hover:scale-105 transition-transform duration-1000" />
+                        <img src={schematic} alt="Skin Schematic" className="w-full md:w-[110%] h-full md:h-[110%] object-cover opacity-90 hover:scale-105 transition-transform duration-1000" />
 
                         {/* Overlay Data Points */}
                         <div className="absolute inset-0 pointer-events-none">

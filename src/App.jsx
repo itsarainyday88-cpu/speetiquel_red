@@ -27,34 +27,13 @@ function App() {
       <Navigation />
 
       {/* Language Selector - Moved to Left */}
-      <div style={{
-        position: 'fixed',
-        top: '30px',
-        left: '30px', /* Changed from right to left */
-        zIndex: 1000,
-        display: 'flex',
-        alignItems: 'center',
-        background: 'rgba(255, 255, 255, 0.05)',
-        backdropFilter: 'blur(10px)',
-        padding: '8px 16px',
-        borderRadius: '30px',
-        border: '1px solid rgba(255,255,255,0.1)'
-      }}>
-        <Globe size={14} color="#E0E0E0" style={{ marginRight: '8px' }} />
+      {/* Language Selector - Moved to Left */}
+      <div className="fixed top-4 left-4 md:top-8 md:left-8 z-[1000] flex items-center bg-white/5 backdrop-blur-md px-3 py-1.5 md:px-4 md:py-2 rounded-full border border-white/10">
+        <Globe size={14} className="text-[#E0E0E0] mr-2" />
         <select
           value={lang}
           onChange={(e) => setLang(e.target.value)}
-          style={{
-            border: 'none',
-            background: 'transparent',
-            fontSize: '0.8rem',
-            color: '#E0E0E0',
-            cursor: 'pointer',
-            outline: 'none',
-            textTransform: 'uppercase',
-            fontFamily: 'var(--font-body)',
-            fontWeight: 500
-          }}
+          className="bg-transparent border-none text-[0.7rem] md:text-sm text-[#E0E0E0] cursor-pointer outline-none uppercase font-body font-medium"
         >
           {languages.map(l => (
             <option key={l.code} value={l.code} style={{ color: 'black' }}>{l.label}</option>

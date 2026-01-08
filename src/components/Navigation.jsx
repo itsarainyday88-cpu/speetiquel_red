@@ -35,7 +35,7 @@ const Navigation = () => {
             {/* Hamburger Button */}
             <button
                 onClick={toggleMenu}
-                className="fixed top-8 right-8 z-[1001] w-12 h-12 flex items-center justify-center rounded-full bg-white/5 backdrop-blur-md border border-white/10 hover:border-primary/50 transition-colors group"
+                className="fixed top-4 right-4 md:top-8 md:right-8 z-[1001] w-10 h-10 md:w-12 md:h-12 flex items-center justify-center rounded-full bg-white/5 backdrop-blur-md border border-white/10 hover:border-primary/50 transition-colors group"
             >
                 {isOpen ? (
                     <X className="text-white group-hover:text-primary transition-colors" size={24} />

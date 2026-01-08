@@ -86,7 +86,7 @@ img {
 }
 
 .section-title {
-  font-size: clamp(2.5rem, 5vw, 4rem);
+  font-size: clamp(2rem, 5vw, 4rem);
   line-height: 1.1;
   color: var(--color-white);
   margin-bottom: 2rem;

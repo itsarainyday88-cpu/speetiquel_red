@@ -54,7 +54,7 @@ const Hero = ({ lang }) => {
             </div>
 
             {/* 2. Main Content Container */}
-            <div className={`container relative z-10 grid grid-cols-1 md:grid-cols-2 gap-10 items-center h-full pt-20 ${loaded ? 'opacity-100' : 'opacity-0'}`}
+            <div className={`container relative z-10 grid grid-cols-1 md:grid-cols-2 gap-10 items-center h-full pt-32 md:pt-20 ${loaded ? 'opacity-100' : 'opacity-0'}`}
                 style={{ transition: 'opacity 1.5s ease-out', direction: isArabic ? 'rtl' : 'ltr' }}>
 
                 {/* Text Side */}
@@ -63,7 +63,7 @@ const Hero = ({ lang }) => {
                         {text.subtitle}
                     </span>
 
-                    <h1 className="text-4xl md:text-5xl lg:text-7xl font-heading leading-tight mb-8 text-white drop-shadow-xl">
+                    <h1 className="text-3xl md:text-5xl lg:text-7xl font-heading leading-tight mb-8 text-white drop-shadow-xl">
                         {text.title}
                     </h1>
 
