@@ -7,6 +7,7 @@ import Evolution from './components/sections/Evolution'; // Evidence
 import RecommendedFor from './components/sections/RecommendedFor'; // Targeting
 import Navigation from './components/Navigation';
 import Footer from './components/sections/Footer';
+import SEO from './components/SEO';
 import { Globe } from 'lucide-react';
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
 
   return (
     <div className="App w-full min-h-screen bg-[#1a1a1a]">
+      <SEO />
       {/* Navigation Menu */}
       <Navigation />
 
