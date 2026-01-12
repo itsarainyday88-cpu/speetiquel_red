@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://speetiquelred-bijou.com/sitemap.xml

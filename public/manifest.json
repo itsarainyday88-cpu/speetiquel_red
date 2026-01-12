@@ -1,0 +1,16 @@
+{
+    "name": "Speetiquel Red",
+    "short_name": "Speetiquel",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#1a1a1a",
+    "theme_color": "#000000",
+    "description": "3-Step Scientific Luminous Solution",
+    "icons": [
+        {
+            "src": "favicon.ico",
+            "sizes": "64x64 32x32 24x24 16x16",
+            "type": "image/x-icon"
+        }
+    ]
+}
